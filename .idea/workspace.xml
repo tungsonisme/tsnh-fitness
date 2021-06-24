@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7f0bcd5-2101-4a3d-9cf2-fbed3bd8e244" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Styles.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/TimerScreen/components/ScrollPicker.styles.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/TimerScreen/components/ScrollPicker.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/TimerScreen/components/ScrollPicker.types.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/TimerScreen/components/SettingItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/TimerScreen/components/SettingModal.styles.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/TimerScreen/components/SettingModal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/TimerScreen/components/SummaryTime.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/TimerScreen/context/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/TimerScreen/styles.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/TimerScreen/utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Themed.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Themed.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navigation/BottomTabNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/BottomTabNavigator.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navigation/LinkingConfiguration.ts" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/LinkingConfiguration.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/TabOneScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/TimerScreen/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/types.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="b7f0bcd5-2101-4a3d-9cf2-fbed3bd8e244" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,8 +65,16 @@
       <workItem from="1624439224984" duration="5566000" />
       <workItem from="1624445165522" duration="12498000" />
       <workItem from="1624500469796" duration="691000" />
-      <workItem from="1624515402119" duration="11751000" />
+      <workItem from="1624515402119" duration="12086000" />
     </task>
+    <task id="LOCAL-00001" summary="Finish setting interval timer">
+      <created>1624529731701</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624529731702</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +91,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finish setting interval timer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish setting interval timer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

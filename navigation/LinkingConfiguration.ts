@@ -12,9 +12,9 @@ export default {
     screens: {
       Root: {
         screens: {
-          TabOne: {
+          Timer: {
             screens: {
-              TabOneScreen: 'one',
+              TimerScreen: 'one',
             },
           },
           TabTwo: {

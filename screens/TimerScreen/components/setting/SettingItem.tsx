@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { Dimensions, StyleSheet, TouchableOpacity } from 'react-native';
 
-import { Text, View } from '../../../components/Themed';
+import { Text, View } from '../../../../components/Themed';
 import SettingModal from './SettingModal';
 import { useState } from 'react';
 import { ScrollPickerConfig } from './ScrollPicker.types';
-import { useTimerContext } from '../context';
+import { useTimerContext } from '../../context/TimerContext';
 
 const windowDimension = Dimensions.get('window');
 
@@ -42,7 +42,7 @@ const SettingItem: React.FC<{
 
   return (
     <>
-      <TouchableOpacity onPress={() => setModalVisible(true)}>
+      <TouchableOpacity activeOpacity={1} onPress={() => setModalVisible(true)}>
         <View
           style={StyleSheet.compose(defaultStyles.container, containerStyle)}
         >

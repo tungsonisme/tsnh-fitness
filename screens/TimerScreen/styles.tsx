@@ -27,7 +27,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: 'transparent',
-    zIndex: 1,
     marginTop: -50,
     borderRadius: 500,
     borderWidth: 10,
@@ -47,6 +46,7 @@ const styles = StyleSheet.create({
     borderTopLeftRadius: 20,
     borderTopRightRadius: 20,
     marginTop: -50,
+    zIndex: -1,
   },
   workSettingItem: {
     backgroundColor: '#deffde',

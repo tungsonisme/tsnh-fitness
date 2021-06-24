@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7f0bcd5-2101-4a3d-9cf2-fbed3bd8e244" name="Default Changelist" comment="" />
+    <list default="true" id="b7f0bcd5-2101-4a3d-9cf2-fbed3bd8e244" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/screens/TimerScreen/components/workout/WorkoutSuccessModal.styles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screens/TimerScreen/components/workout/WorkoutSuccessModal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screens/TimerScreen/components/workout/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/TimerScreen/components/setting/SettingItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/TimerScreen/components/setting/SettingItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/TimerScreen/components/setting/SettingModal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/TimerScreen/components/setting/SettingModal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/TimerScreen/components/setting/SummaryTime.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/TimerScreen/components/setting/SummaryTime.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/TimerScreen/components/workout/WorkoutModal.styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/TimerScreen/components/workout/WorkoutModal.styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/TimerScreen/components/workout/WorkoutModal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/TimerScreen/components/workout/WorkoutModal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/TimerScreen/components/workout/WorkoutModal.types.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/TimerScreen/components/workout/WorkoutModal.types.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/TimerScreen/context/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/TimerScreen/context/TimerContext.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/TimerScreen/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/TimerScreen/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/TimerScreen/styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/TimerScreen/styles.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/screens/TimerScreen/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/screens/TimerScreen/context" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -41,10 +55,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/screens/TimerScreen/context" />
+      <recent name="$PROJECT_DIR$/screens/TimerScreen/components/workout" />
       <recent name="$PROJECT_DIR$/screens/TimerScreen/components" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/screens/TimerScreen/components/WorkoutComponents" />
+      <recent name="$PROJECT_DIR$/screens/TimerScreen/components/SettingComponents" />
+      <recent name="$PROJECT_DIR$/docs" />
       <recent name="$PROJECT_DIR$/components" />
       <recent name="$PROJECT_DIR$/screens/SettingScreen" />
     </key>
@@ -66,6 +85,7 @@
       <workItem from="1624445165522" duration="12498000" />
       <workItem from="1624500469796" duration="691000" />
       <workItem from="1624515402119" duration="12086000" />
+      <workItem from="1624590089568" duration="8772000" />
     </task>
     <task id="LOCAL-00001" summary="Finish setting interval timer">
       <created>1624529731701</created>
@@ -74,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624529731702</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update">
+      <created>1624536738280</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1624536738280</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,19 +121,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finish setting interval timer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish setting interval timer" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/screens/TimerScreen/components/ScrollPicker.styles.tsx</url>
-          <line>25</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useRef } from 'react';
 
-import { Text, View } from '../../../components/Themed';
+import { Text, View } from '../../../../components/Themed';
 import styles from './ScrollPicker.styles';
 import { ScrollPickerConfig } from './ScrollPicker.types';
 

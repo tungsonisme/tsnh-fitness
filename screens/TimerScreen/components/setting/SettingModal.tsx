@@ -2,7 +2,7 @@ import * as React from 'react';
 import { useState } from 'react';
 import { StyleSheet, TouchableOpacity } from 'react-native';
 
-import { Text, View, Modal } from '../../../components/Themed';
+import { Text, View, Modal } from '../../../../components/Themed';
 import defaultStyles from './SettingModal.styles';
 import { ScrollPicker } from './ScrollPicker';
 import { ScrollPickerConfig } from './ScrollPicker.types';
@@ -27,9 +27,10 @@ const SettingModal: React.FC<{
   );
 
   return (
-    <Modal animationType="fade" transparent={true} visible={modalVisible}>
+    <Modal transparent={true} visible={modalVisible}>
       <View style={StyleSheet.compose(defaultStyles.container, containerStyle)}>
         <TouchableOpacity
+          activeOpacity={1}
           onPress={() => {
             onClose(selectedValue);
           }}

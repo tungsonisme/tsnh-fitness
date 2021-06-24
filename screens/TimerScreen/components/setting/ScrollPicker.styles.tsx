@@ -1,8 +1,4 @@
-import { Dimensions, StyleSheet } from 'react-native';
-
-const windowDimension = Dimensions.get('window');
-
-export const valueItemHeight = 50;
+import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {

@@ -1,7 +1,7 @@
 import * as React from 'react';
 
-import { useTimerContext } from '../context';
-import { formatToTimeDisplay } from '../utils';
+import { useTimerContext } from '../../context/TimerContext';
+import { formatToTimeDisplay } from '../../utils';
 
 const SummaryTime: React.FC = () => {
   const { config } = useTimerContext() || {};
